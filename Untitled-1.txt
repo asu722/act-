@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Tarea#1 abigail cetina</h2>
+
+<p>Declarar 5 objetos</p>
+
+<p id="demo"></p>
+
+<script>
+
+var Milk = {
+  brand: "LALA",
+  brandVariant: "LALA",
+  color: "writer",
+  contentInLt: 1,
+  fullProfile : function() {
+    return "This is a "+ this.brandVariant +" which belongs to "+ this.brand +" and its content in litros is " + this.contentInMl;
+  }
+};
+
+document.getElementById("demo").innerHTML = Milk.fullProfile();
+
+<p id="demo"></p>
+
+<script>
+
+var Colors = {
+  brand: "Norma",
+  brandVariant: "Norma",
+  color: "writer",
+  quantity: 12,
+  fullProfile : function() {
+    return "This is a "+ this.brandVariant +" which belongs to "+ this.brand +" and its  quantity is " + this. quantity;
+  }
+};
+
+document.getElementById("demo").innerHTML = Colors.fullProfile();
+
+
+
+
+
+
+<p id="demo"></p>
+
+<script>
+
+var gaseosa = {
+  brand: "Jugos",
+  brandVariant: "Jugos",
+  color: "orange",
+  contentInmt: 250,
+  fullProfile : function() {
+    return "This is a "+ this.brandVariant +" which belongs to "+ this.brand +" and its content in mililiters is " + this.contentInMl;
+  }
+};
+
+document.getElementById("demo").innerHTML = gaseosa.fullProfile();
+
+
+
+
+<p id="demo"></p>
+
+<script>
+
+var car = {
+  brand: "Ford",
+  brandVariant: "Ford",
+  color: "black",
+  speeds: 5,
+  fullProfile : function() {
+    return "This is a "+ this.brandVariant +" which belongs to "+ this.brand +" and its speeds is " + this.speeds;
+  }
+};
+
+document.getElementById("demo").innerHTML = car.fullProfile();
+
+
+
+<p id="demo"></p>
+
+<script>
+
+var computer = {
+  brand: "Huawei",
+  brandVariant: "Huawei",
+  color: "grey",
+  size: small,
+  fullProfile : function() {
+    return "This is a "+ this.brandVariant +" which belongs to "+ this.brand +" and its  size is " + this. size;
+  }
+};
+
+document.getElementById("demo").innerHTML = computer.fullProfile();
+
+
+</script>
+
+</body>
+</html>
